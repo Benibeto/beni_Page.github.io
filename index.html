@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lluvia Ponce · Portafolio</title>
+
+<!-- ============================================================
+  CAMBIAR: el <title> de arriba por tu nombre real
+============================================================= -->
+
+<!-- Bootstrap 5 (CDN, como pide la práctica) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Iconos Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- Tipografías Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============================================================
+  NAVBAR
+============================================================= -->
+<nav class="navbar navbar-expand-md sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#inicio">Beni<span class="dot">.</span>dev</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-md-4">
+        <li class="nav-item"><a class="nav-link" href="#inicio">inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#sobre-mi">sobre-mi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#habilidades">habilidades</a></li>
+        <li class="nav-item"><a class="nav-link" href="#proyectos">proyectos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================================================
+  HERO / PRESENTACIÓN
+============================================================= -->
+<header class="hero" id="inicio">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-12 col-md-7 order-2 order-md-1">
+        <p class="hero-eyebrow mono">&lt;hola, soy&gt;</p>
+        <h1 class="display-font">Beni Alberto Pérez Cabrera</h1>
+        <p class="lead mt-3" style="max-width:38rem;">
+          Estudiante de Desarrollo Web, construyendo interfaces claras y
+          accesibles. Este es mi portafolio: aquí reúno las prácticas y
+          proyectos que he desarrollado a lo largo del curso.
+        </p>
+        <!-- CAMBIAR: el párrafo de arriba por tu propia presentación -->
+        <div class="d-flex gap-3 mt-4">
+          <a href="#proyectos" class="btn btn-dark rounded-pill px-4">Ver proyectos</a>
+          <a href="#contacto" class="btn btn-outline-dark rounded-pill px-4">Contactarme</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-5 order-1 order-md-2">
+        <div class="hero-photo-wrap">
+          <img src="me_red.jpg" alt="" class="hero-photo">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================================
+  SOBRE MÍ / BIOGRAFÍA
+============================================================= =-->
+<section id="sobre-mi">
+  <div class="container">
+    <p class="section-label">01 · biografía</p>
+    <h2 class="section-title display-font">Sobre mí</h2>
+    <div class="row g-5">
+      <div class="col-12 col-lg-7">
+        <p>
+          Soy estudiante del área de Desarrollo Web, actualmente cursando
+          materias enfocadas en diseño y maquetación de páginas con HTML,
+          CSS, Bootstrap y JavaScript. Me interesa especialmente crear
+          interfaces que se vean y funcionen bien en cualquier dispositivo,
+          desde un celular hasta una pantalla de escritorio.
+        </p>
+        <p>
+          Fuera del código, disfruto resolver problemas paso a paso y
+          aprender por mi cuenta a través de documentación y pequeños
+          proyectos personales. Busco seguir creciendo como desarrolladora
+          y, más adelante, especializarme en el desarrollo frontend.
+        </p>
+        </div>
+      <div class="col-12 col-lg-5">
+        <div class="row row-cols-2 g-3">
+          <div class="col">
+            <p class="mono text-muted small mb-1">área de estudio</p>
+            <p class="fw-semibold">Desarrollo Web</p>
+            <!-- CAMBIAR: tu carrera / área real -->
+          </div>
+          <div class="col">
+            <p class="mono text-muted small mb-1">ubicación</p>
+            <p class="fw-semibold">Ciudad de México, MX</p>
+            <!-- CAMBIAR: tu ciudad -->
+          </div>
+          <div class="col">
+            <p class="mono text-muted small mb-1">semestre</p>
+            <p class="fw-semibold">8° semestre</p>
+            <!-- CAMBIAR: tu semestre o grado -->
+          </div>
+          <div class="col">
+            <p class="mono text-muted small mb-1">idiomas</p>
+            <p class="fw-semibold">Español, Inglés ()</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  HABILIDADES
+============================================================= -->
+<section id="habilidades" class="bg-white bg-opacity-50">
+  <div class="container">
+    <p class="section-label">02 · habilidades</p>
+    <h2 class="section-title display-font">Habilidades técnicas y blandas</h2>
+
+    <div class="row g-5">
+      <div class="col-12 col-lg-6">
+        
+
+      <div class="col-12 col-lg-6">
+        <h3 class="h5 mono mb-3">Blandas</h3>
+        <div class="d-flex flex-wrap gap-2 mb-4">
+          <span class="skill-chip">Trabajo en equipo</span>
+          <span class="skill-chip">Comunicación</span>
+          <span class="skill-chip">Resolución de problemas</span>
+          <span class="skill-chip">Organización</span>
+          <span class="skill-chip">Aprendizaje autónomo</span>
+        </div>
+        <h3 class="h5 mono mb-3">Herramientas</h3>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="skill-chip">VS Code</span>
+          <span class="skill-chip">Figma</span>
+          <span class="skill-chip">GitHub</span>
+          <span class="skill-chip">Chrome DevTools</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  GALERÍA DE TRABAJOS / PROYECTOS
+============================================================= -->
+<section id="proyectos">
+  <div class="container">
+    <p class="section-label">03 · galería de trabajos</p>
+    <h2 class="section-title display-font">Proyectos y prácticas</h2>
+    <div class="row g-4">
+      
+      <!-- Proyecto 1 -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="project-card">  
+          <div class="p-4">
+            <p class="project-num mb-1">práctica · 01</p>
+            <h3 class="h5">Pagina en equipo</h3>
+            <p class="text-muted small">
+              Página de una sola vista construida con CSS Flexbox,
+              enfocada en alineación y distribución de elementos.
+            </p>
+            <a href="https://benibeto.github.io/Page_Team/" class="project-link">Ver proyecto →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="project-card">
+          <img src="https://placehold.co/600x375/efeada/6b6657?text=Practica+02"
+               class="project-thumb" alt="Captura de la práctica 2">
+          <div class="p-4">
+            <p class="project-num mb-1">práctica · 02</p>
+            <h3 class="h5">Landing page con Bootstrap</h3>
+            <p class="text-muted small">
+              Sitio de una columna con componentes de Bootstrap:
+              navbar, carrusel y formulario de contacto.
+            </p>
+            <a href="practicas/practica-2/index.html" class="project-link">Ver proyecto →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 3 -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="project-card">
+          <img src="https://placehold.co/600x375/efeada/6b6657?text=Practica+03"
+               class="project-thumb" alt="Captura de la práctica 3">
+          <div class="p-4">
+            <p class="project-num mb-1">práctica · 03</p>
+            <h3 class="h5">Galería interactiva con JS</h3>
+            <p class="text-muted small">
+              Galería de imágenes con filtros dinámicos usando
+              JavaScript y manipulación del DOM.
+            </p>
+            <a href="practicas/practica-3/index.html" class="project-link">Ver proyecto →</a>
+          </div>
+        </div>
+      </div>
+
+    
+
+      <!-- Agrega más tarjetas copiando el bloque .col-12.col-sm-6.col-lg-4 -->
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  CONTACTO
+============================================================= -->
+<section id="contacto">
+  <div class="container">
+    <div class="contact-section p-5 p-md-6 text-center">
+      <p class="section-label">04 · contacto</p>
+      <h2 class="display-font mb-3">¿Hablamos?</h2>
+      <p class="mb-4 mx-auto" style="max-width:32rem; opacity:.85;">
+        Estoy abierto a colaboraciones, prácticas profesionales y
+        cualquier proyecto donde pueda seguir aprendiendo.
+      </p>
+      <div class="d-flex justify-content-center flex-wrap gap-4 mono">
+        <a href="mailto:223s0302@itsta.edu.mx"><i class="bi bi-envelope me-1"></i>223s0302@itsta.edu.mx</a>
+        <a href="https://github.com/Benibeto" target="_blank"><i class="bi bi-github me-1"></i>github.com/Benibeto</a>
+      </div>
+     </div>
+  </div>
+</section>
+
+<footer class="text-center py-4">
+  <p class="mb-0">© 2026 Beni Alberto Perez Cabrera — hecho con HTML, CSS y Bootstrap.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
